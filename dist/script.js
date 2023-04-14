@@ -5,6 +5,11 @@ const PROFILE_BASE_URL = "http://image.tmdb.org/t/p/w185";
 const BACKDROP_BASE_URL = "http://image.tmdb.org/t/p/w780";
 const CONTAINER = document.querySelector(".container");
 
+
+
+
+
+
 // Don't touch this function please
 const autorun = async () => {
   const movies = await fetchMovies();
@@ -41,10 +46,13 @@ const fetchMovie = async (movieId) => {
   return res.json();
 };
 
+
+
 // You'll need to play with this function in order to add features and enhance the style.
 const renderMovies = (movies) => {
   movies.map((movie) => {
     const movieDiv = document.createElement("div");
+    
     movieDiv.innerHTML = `
     <div class=''>
         <img src="${BACKDROP_BASE_URL + movie.backdrop_path}" alt="${
