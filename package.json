@@ -1,0 +1,22 @@
+{
+  "name": "movies-project-1",
+  "version": "1.0.0",
+  "description": "This is a movie database project, where it shows movies, their casts, ratings, trailers, related movies, genres, and so on.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bluesky1992-web/movies-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bluesky1992-web/movies-project/issues"
+  },
+  "homepage": "https://github.com/bluesky1992-web/movies-project#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.1"
+  }
+}
